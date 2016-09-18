@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6BAF4E1D8F480200675228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6BAF4D1D8F480200675228 /* AppDelegate.swift */; };
+		CC6BAF501D8F480200675228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6BAF4F1D8F480200675228 /* ViewController.swift */; };
+		CC6BAF531D8F480200675228 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6BAF511D8F480200675228 /* Main.storyboard */; };
+		CC6BAF561D8F480200675228 /* Sailing_today_scoring_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC6BAF541D8F480200675228 /* Sailing_today_scoring_App.xcdatamodeld */; };
+		CC6BAF581D8F480200675228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6BAF571D8F480200675228 /* Assets.xcassets */; };
+		CC6BAF5B1D8F480200675228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6BAF591D8F480200675228 /* LaunchScreen.storyboard */; };
+		CC6BAF661D8F480200675228 /* Sailing_today_scoring_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6BAF651D8F480200675228 /* Sailing_today_scoring_AppTests.swift */; };
+		CC6BAF711D8F480200675228 /* Sailing_today_scoring_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6BAF701D8F480200675228 /* Sailing_today_scoring_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6BAF621D8F480200675228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6BAF421D8F480200675228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6BAF491D8F480200675228;
+			remoteInfo = "Sailing.today scoring App";
+		};
+		CC6BAF6D1D8F480200675228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6BAF421D8F480200675228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6BAF491D8F480200675228;
+			remoteInfo = "Sailing.today scoring App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6BAF4A1D8F480200675228 /* Sailing.today scoring App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sailing.today scoring App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6BAF4D1D8F480200675228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC6BAF4F1D8F480200675228 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC6BAF521D8F480200675228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC6BAF551D8F480200675228 /* Sailing_today_scoring_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sailing_today_scoring_App.xcdatamodel; sourceTree = "<group>"; };
+		CC6BAF571D8F480200675228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6BAF5A1D8F480200675228 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6BAF5C1D8F480200675228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6BAF611D8F480200675228 /* Sailing.today scoring AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sailing.today scoring AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6BAF651D8F480200675228 /* Sailing_today_scoring_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sailing_today_scoring_AppTests.swift; sourceTree = "<group>"; };
+		CC6BAF671D8F480200675228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6BAF6C1D8F480200675228 /* Sailing.today scoring AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sailing.today scoring AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6BAF701D8F480200675228 /* Sailing_today_scoring_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sailing_today_scoring_AppUITests.swift; sourceTree = "<group>"; };
+		CC6BAF721D8F480200675228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6BAF471D8F480200675228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6BAF5E1D8F480200675228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6BAF691D8F480200675228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6BAF411D8F480200675228 = {
+			isa = PBXGroup;
+			children = (
+				CC6BAF4C1D8F480200675228 /* Sailing.today scoring App */,
+				CC6BAF641D8F480200675228 /* Sailing.today scoring AppTests */,
+				CC6BAF6F1D8F480200675228 /* Sailing.today scoring AppUITests */,
+				CC6BAF4B1D8F480200675228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6BAF4B1D8F480200675228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6BAF4A1D8F480200675228 /* Sailing.today scoring App.app */,
+				CC6BAF611D8F480200675228 /* Sailing.today scoring AppTests.xctest */,
+				CC6BAF6C1D8F480200675228 /* Sailing.today scoring AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6BAF4C1D8F480200675228 /* Sailing.today scoring App */ = {
+			isa = PBXGroup;
+			children = (
+				CC6BAF4D1D8F480200675228 /* AppDelegate.swift */,
+				CC6BAF4F1D8F480200675228 /* ViewController.swift */,
+				CC6BAF511D8F480200675228 /* Main.storyboard */,
+				CC6BAF571D8F480200675228 /* Assets.xcassets */,
+				CC6BAF591D8F480200675228 /* LaunchScreen.storyboard */,
+				CC6BAF5C1D8F480200675228 /* Info.plist */,
+				CC6BAF541D8F480200675228 /* Sailing_today_scoring_App.xcdatamodeld */,
+			);
+			path = "Sailing.today scoring App";
+			sourceTree = "<group>";
+		};
+		CC6BAF641D8F480200675228 /* Sailing.today scoring AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6BAF651D8F480200675228 /* Sailing_today_scoring_AppTests.swift */,
+				CC6BAF671D8F480200675228 /* Info.plist */,
+			);
+			path = "Sailing.today scoring AppTests";
+			sourceTree = "<group>";
+		};
+		CC6BAF6F1D8F480200675228 /* Sailing.today scoring AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6BAF701D8F480200675228 /* Sailing_today_scoring_AppUITests.swift */,
+				CC6BAF721D8F480200675228 /* Info.plist */,
+			);
+			path = "Sailing.today scoring AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6BAF491D8F480200675228 /* Sailing.today scoring App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6BAF751D8F480200675228 /* Build configuration list for PBXNativeTarget "Sailing.today scoring App" */;
+			buildPhases = (
+				CC6BAF461D8F480200675228 /* Sources */,
+				CC6BAF471D8F480200675228 /* Frameworks */,
+				CC6BAF481D8F480200675228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sailing.today scoring App";
+			productName = "Sailing.today scoring App";
+			productReference = CC6BAF4A1D8F480200675228 /* Sailing.today scoring App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6BAF601D8F480200675228 /* Sailing.today scoring AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6BAF781D8F480200675228 /* Build configuration list for PBXNativeTarget "Sailing.today scoring AppTests" */;
+			buildPhases = (
+				CC6BAF5D1D8F480200675228 /* Sources */,
+				CC6BAF5E1D8F480200675228 /* Frameworks */,
+				CC6BAF5F1D8F480200675228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6BAF631D8F480200675228 /* PBXTargetDependency */,
+			);
+			name = "Sailing.today scoring AppTests";
+			productName = "Sailing.today scoring AppTests";
+			productReference = CC6BAF611D8F480200675228 /* Sailing.today scoring AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC6BAF6B1D8F480200675228 /* Sailing.today scoring AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6BAF7B1D8F480200675228 /* Build configuration list for PBXNativeTarget "Sailing.today scoring AppUITests" */;
+			buildPhases = (
+				CC6BAF681D8F480200675228 /* Sources */,
+				CC6BAF691D8F480200675228 /* Frameworks */,
+				CC6BAF6A1D8F480200675228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6BAF6E1D8F480200675228 /* PBXTargetDependency */,
+			);
+			name = "Sailing.today scoring AppUITests";
+			productName = "Sailing.today scoring AppUITests";
+			productReference = CC6BAF6C1D8F480200675228 /* Sailing.today scoring AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6BAF421D8F480200675228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Valentijn van Duijvendijk";
+				TargetAttributes = {
+					CC6BAF491D8F480200675228 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CC6BAF601D8F480200675228 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6BAF491D8F480200675228;
+					};
+					CC6BAF6B1D8F480200675228 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC6BAF491D8F480200675228;
+					};
+				};
+			};
+			buildConfigurationList = CC6BAF451D8F480200675228 /* Build configuration list for PBXProject "Sailing.today scoring App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6BAF411D8F480200675228;
+			productRefGroup = CC6BAF4B1D8F480200675228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6BAF491D8F480200675228 /* Sailing.today scoring App */,
+				CC6BAF601D8F480200675228 /* Sailing.today scoring AppTests */,
+				CC6BAF6B1D8F480200675228 /* Sailing.today scoring AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6BAF481D8F480200675228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6BAF5B1D8F480200675228 /* LaunchScreen.storyboard in Resources */,
+				CC6BAF581D8F480200675228 /* Assets.xcassets in Resources */,
+				CC6BAF531D8F480200675228 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6BAF5F1D8F480200675228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6BAF6A1D8F480200675228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6BAF461D8F480200675228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6BAF501D8F480200675228 /* ViewController.swift in Sources */,
+				CC6BAF561D8F480200675228 /* Sailing_today_scoring_App.xcdatamodeld in Sources */,
+				CC6BAF4E1D8F480200675228 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6BAF5D1D8F480200675228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6BAF661D8F480200675228 /* Sailing_today_scoring_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6BAF681D8F480200675228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6BAF711D8F480200675228 /* Sailing_today_scoring_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6BAF631D8F480200675228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6BAF491D8F480200675228 /* Sailing.today scoring App */;
+			targetProxy = CC6BAF621D8F480200675228 /* PBXContainerItemProxy */;
+		};
+		CC6BAF6E1D8F480200675228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6BAF491D8F480200675228 /* Sailing.today scoring App */;
+			targetProxy = CC6BAF6D1D8F480200675228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6BAF511D8F480200675228 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6BAF521D8F480200675228 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC6BAF591D8F480200675228 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6BAF5A1D8F480200675228 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6BAF731D8F480200675228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC6BAF741D8F480200675228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6BAF761D8F480200675228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sailing.today scoring App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sponsor-Concepts.Sailing-today-scoring-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC6BAF771D8F480200675228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Sailing.today scoring App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sponsor-Concepts.Sailing-today-scoring-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC6BAF791D8F480200675228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sailing.today scoring AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sponsor-Concepts.Sailing-today-scoring-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sailing.today scoring App.app/Sailing.today scoring App";
+			};
+			name = Debug;
+		};
+		CC6BAF7A1D8F480200675228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Sailing.today scoring AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sponsor-Concepts.Sailing-today-scoring-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sailing.today scoring App.app/Sailing.today scoring App";
+			};
+			name = Release;
+		};
+		CC6BAF7C1D8F480200675228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Sailing.today scoring AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sponsor-Concepts.Sailing-today-scoring-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sailing.today scoring App";
+			};
+			name = Debug;
+		};
+		CC6BAF7D1D8F480200675228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Sailing.today scoring AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sponsor-Concepts.Sailing-today-scoring-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Sailing.today scoring App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6BAF451D8F480200675228 /* Build configuration list for PBXProject "Sailing.today scoring App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6BAF731D8F480200675228 /* Debug */,
+				CC6BAF741D8F480200675228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6BAF751D8F480200675228 /* Build configuration list for PBXNativeTarget "Sailing.today scoring App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6BAF761D8F480200675228 /* Debug */,
+				CC6BAF771D8F480200675228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6BAF781D8F480200675228 /* Build configuration list for PBXNativeTarget "Sailing.today scoring AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6BAF791D8F480200675228 /* Debug */,
+				CC6BAF7A1D8F480200675228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC6BAF7B1D8F480200675228 /* Build configuration list for PBXNativeTarget "Sailing.today scoring AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6BAF7C1D8F480200675228 /* Debug */,
+				CC6BAF7D1D8F480200675228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CC6BAF541D8F480200675228 /* Sailing_today_scoring_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CC6BAF551D8F480200675228 /* Sailing_today_scoring_App.xcdatamodel */,
+			);
+			currentVersion = CC6BAF551D8F480200675228 /* Sailing_today_scoring_App.xcdatamodel */;
+			path = Sailing_today_scoring_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CC6BAF421D8F480200675228 /* Project object */;
+}
